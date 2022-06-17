@@ -14,8 +14,6 @@
   "license": "ISC",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "dependencies": {
-  },
   "keywords": [],
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/vladLazurenko"
@@ -23,5 +21,6 @@
   "repository": "https://github.com/vladLazurenko/lerna-github-package-test",
   "devDependencies": {
     "typescript": "4.3.5"
-  }
+  },
+  "gitHead": "a4071d5ba5a1ea148786f4b39062631cd51657b8"
 }

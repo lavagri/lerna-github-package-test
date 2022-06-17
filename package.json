@@ -10,8 +10,7 @@
     "new-version": "lerna version --exact --include-merged-tags",
     "publish-latest": "lerna publish from-package --yes",
     "test:libs": "lerna run --scope @vl/* --no-bail lerna:test",
-    "diff": "lerna diff",
-    "prepare": "husky install"
+    "diff": "lerna diff"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "5.27.1",
