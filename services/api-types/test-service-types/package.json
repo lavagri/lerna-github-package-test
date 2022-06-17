@@ -21,5 +21,6 @@
   "repository": "https://github.com/vladLazurenko/lerna-github-package-test",
   "devDependencies": {
     "typescript": "4.3.5"
-  }
+  },
+  "gitHead": "db20bcf9ad16c9df6ad5f58a1a09dcef69efec9a"
 }
