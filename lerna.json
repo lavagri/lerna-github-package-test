@@ -1,0 +1,23 @@
+{
+  "packages": [
+    "services/api-types/*",
+    "services/*-services/*",
+    "libs/*"
+  ],
+  "version": "independent",
+  "concurrency": 10,
+  "command": {
+    "publish": {
+      "message": "package publish",
+      "npmClient": "npm",
+      "registry": "https://npm.pkg.github.com/vladLazurenko",
+      "ignoreChanges": [
+        "**/*.md",
+        "**/example/**",
+        "**/test/**",
+        "**/__tests__/**",
+        "**/package-lock.json"
+      ]
+    }
+  }
+}

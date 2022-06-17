@@ -1,0 +1,25 @@
+{
+  "name": "@vl/file-service-types",
+  "version": "1.5.7",
+  "description": "",
+  "scripts": {
+    "postinstall": "npm run build",
+    "build": "node_modules/.bin/tsc -p tsconfig.build.json",
+    "build:watch": "node_modules/.bin/tsc -p tsconfig.build.json -w --preserveWatchOutput",
+    "start:dev": "npm run build:watch",
+    "test": "",
+    "test:watch": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/vladLazurenko"
+  },
+  "repository": "https://github.com/vladLazurenko/lerna-github-package-test",
+  "devDependencies": {
+    "typescript": "4.3.5"
+  }
+}

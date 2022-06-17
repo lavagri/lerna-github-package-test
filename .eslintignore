@@ -1,0 +1,13 @@
+# .eslintignore
+.idea
+node_modules
+eslintrc.js
+package.json
+package-lock.json
+dist
+
+**/node_modules/**
+**/package.json
+**/package-lock.json
+**/.eslintrc.js
+**/dist/**
