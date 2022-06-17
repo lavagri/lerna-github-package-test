@@ -1,5 +1,5 @@
 {
-  "name": "@vl/file-service-types",
+  "name": "@vladLazurenko/file-service-types",
   "version": "1.5.7",
   "description": "",
   "scripts": {
@@ -22,5 +22,5 @@
   "devDependencies": {
     "typescript": "4.3.5"
   },
-  "gitHead": "db20bcf9ad16c9df6ad5f58a1a09dcef69efec9a"
+  "gitHead": "a4071d5ba5a1ea148786f4b39062631cd51657b8"
 }
