@@ -1,4 +1,4 @@
-import { StatusCodes } from 'http-status-codes'
+import { StatusCodes } from './config'
 
 export const NOT_FOUND_CODE = StatusCodes.NOT_FOUND;
 
